@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer_layout"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.soshians_co.aab.MainActivity"
+    tools:showIn="@layout/activity_main">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="com.soshians_co.aab.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <com.szugyi.circlemenu.view.CircleLayout
+        android:id="@+id/circle_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+         >
+        <include layout="@layout/circle_menu_items" />
+    </com.szugyi.circlemenu.view.CircleLayout>
+
+    <TextView
+        android:id="@+id/selected_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/circle_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        android:textColor="@color/White"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
+    <android.support.design.widget.NavigationView
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:background="#BABABC"
+        android:fitsSystemWindows="true"
+        android:id="@+id/nav"
+        app:menu="@menu/main_drawer_menu"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/navigation_drawer_layout"
+        ></android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

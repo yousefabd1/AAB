@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="خانه"
+             android:icon="@drawable/ic_home_black_48dp"
+            ></item>
+        <item
+            android:id="@+id/message"
+            android:title="صندوق پیام ها"
+            android:icon="@drawable/download"
+            ></item>
+        <item android:title="حساب کاربری">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/trasaction"
+                        android:visible="false"
+                        android:title="لیست تراکنش ها"
+                        android:icon="@drawable/transaction"></item>
+                    <item
+                        android:id="@+id/myCard"
+                        android:visible="false"
+                        android:title="کارت های من"
+                        android:icon="@drawable/cards"></item>
+                    <item
+                        android:id="@+id/myScor"
+                        android:title="امتیازات من"
+                        android:icon="@drawable/scoreboard"></item>
+                    <item
+                        android:id="@+id/pony"
+                        android:visible="false"
+                        android:title="تسویه حساب"
+                        android:icon="@drawable/givemoney"></item>
+                    <item
+                        android:id="@+id/myAccunt"
+                        android:title="حساب کاربری"
+                        android:icon="@drawable/account"></item>
+
+                </group>
+            </menu>
+        </item>
+        <item android:title="امکانات">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/setting"
+                        android:title="تنظیمات"
+                        android:icon="@drawable/ic_settings_black_48dp"></item>
+                    <item
+                        android:id="@+id/aboutUs"
+                        android:title="درباره ما"
+                        android:icon="@drawable/ic_group_black_48dp"></item>
+
+                </group>
+            </menu>
+        </item>
+    </group>
+
+</menu>

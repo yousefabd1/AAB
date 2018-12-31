@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.szugyi.circlemenu.view.CircleImageView
+        android:id="@+id/internet_charge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:elevation="5dp"
+        android:src="@drawable/sharjinternet"
+        circle:name="شارژ اینترنت" />
+
+    <com.szugyi.circlemenu.view.CircleImageView
+        android:id="@+id/mobile_charge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:elevation="5dp"
+        android:src="@drawable/kharidsharj"
+        circle:name="خرید شارژ" />
+
+
+    <com.szugyi.circlemenu.view.CircleImageView
+        android:id="@+id/ghabze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:elevation="5dp"
+        android:src="@drawable/pardakhtghabz"
+        circle:name="پرداخت قبض" />
+
+    <com.szugyi.circlemenu.view.CircleImageView
+        android:id="@+id/store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:elevation="5dp"
+        android:src="@drawable/store"
+        circle:name="فروشگاه" />
+
+    <com.szugyi.circlemenu.view.CircleImageView
+        android:id="@+id/estekhtam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:elevation="5dp"
+        android:src="@drawable/recruitment"
+        circle:name="استخدام" />
+
+</merge>

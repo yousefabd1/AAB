@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="20dp"
+    android:id="@+id/popup_4"
+    android:gravity="right"
+    android:background="#E0000000"
+    android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10dp"
+            android:textSize="16sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="60dp"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="7"
+            android:shadowRadius="2"
+            android:textColor="@color/White"
+            android:text="1. در این بخش با ورود اطلاعات کارت، پرداخت شما انجام می شود."
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="10dp"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="7"
+        android:shadowRadius="2"
+        android:textColor="@color/White"
+        android:text="2. ابتدا شناسه قبض و پرداخت و مبلغ را که در بالای صفحه مشاهده می شود بررسی و از صحت آن ها مطمئن شوید. در صورت صحیح نبودن، با لمس دکمه بازگشت به صفحات قبلی رفته و آن ها را تصحیح کنید."
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="7"
+        android:shadowRadius="2"
+        android:textColor="@color/White"
+        android:text="3. شماره کارت خود را وارد کنید. همچنین اگر قبلاً کارتهایی را به برنامه معرفی کرده اید می توانید در همین لیست، یکی از آنها را انتخاب کنید. برای امنیت بیشتر، در هر حال، رمز دوم را به ازای هر پرداخت، باید وارد نمایید."
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="10dp"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="7"
+        android:shadowRadius="2"
+        android:textColor="@color/White"
+        android:text="4. دکمه پرداخت را کلیک کنید."
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="10dp"
+        android:textSize="16sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="7"
+        android:shadowRadius="2"
+        android:textColor="@color/White"
+        android:text="5. نتیجه تراکنش نمایش داده می شود."
+        />
+
+    <Button
+        android:id="@+id/close_popup"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/White"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        android:text="بستن"/>
+
+
+  </LinearLayout>

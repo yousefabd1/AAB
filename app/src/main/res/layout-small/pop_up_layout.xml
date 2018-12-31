@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="20dp"
+    android:id="@+id/popup_1"
+    android:background="#E0000000"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        >
+        <com.soshians_co.aab.CircleImageView
+            android:src="@drawable/logo"
+            android:scaleType="centerCrop"
+            android:id="@+id/help_logo"
+            android:layout_alignParentRight="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            app:civ_border_color="@color/White"
+            app:civ_border_width="1dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/help_logo"
+            android:lineSpacingExtra="10dp"
+            android:textSize="16sp"
+            android:layout_marginRight="10dp"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="7"
+            android:shadowRadius="2"
+            android:textColor="@color/White"
+            android:text="با کلیک بر این لوگو، در هر صفحه ای که باشید وارد صفحه اصلی می شوید و در این صفحه، امکانات اصلی موجود در اپلیکیشن آب قابل مشاهده است"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#90ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        >
+        <com.soshians_co.aab.CircleImageView
+            android:src="@drawable/menu"
+            android:scaleType="centerCrop"
+            android:id="@+id/menu_icon"
+            android:layout_alignParentRight="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            app:civ_border_color="@color/White"
+            app:civ_border_width="1dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/menu_icon"
+            android:lineSpacingExtra="10dp"
+            android:textSize="16sp"
+            android:layout_marginRight="10dp"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="7"
+            android:shadowRadius="2"
+            android:textColor="@color/White"
+            android:text="در قسمت بالا، سمت راست هر صفحه ، این آیکن را مشاهده می کنید. با لمس آن، منوی کشویی مربوطه نمایان می شود."
+            />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/close_popup"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/White"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        android:text="بستن"/>
+
+</LinearLayout>
